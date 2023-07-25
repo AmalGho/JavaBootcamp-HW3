@@ -70,8 +70,9 @@ public class Main {
             if (positive_number > 0) {
                 System.out.println(positive_number + " X " + i + " = " + (positive_number * i));
             }else {
-                System.out.println("oops it is negative integer...");
-                break;
+                System.out.println("oops it is negative integer... \ntry again...");
+                positive_number = data.nextInt();
+                i--;
             }
         }
 
@@ -235,8 +236,8 @@ public class Main {
         }
 
 
-        
-        
+
+
 //        10.Write a program thats check if the word is a palindrome or not. hint: A string is said to be a palindrome if it is the same if we start reading it from left to right or right to left.
 
         System.out.println("\n\n Q10 output: ");
